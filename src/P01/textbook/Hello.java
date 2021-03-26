@@ -1,4 +1,4 @@
-package P01.textbook;
+package p01.textbook;
 /*
  * 작성자 : 신용권
  * 작성자 : 2015.12.31
