@@ -7,5 +7,11 @@ public class SignOpearatorExample {
 		 int result2 = -x;
 		 System.out.println("result1="+result1);
 		 System.out.println("result2="+result2);
+		 
+		 short s =100;
+//		 short result3= -s; 강제형변환해줘야함
+		 short result3 = (short)- s;
+//		 int result3 = -s;
+		 System.out.println("result3="+result3);
 	}
 }
