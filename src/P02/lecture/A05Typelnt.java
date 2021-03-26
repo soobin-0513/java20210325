@@ -2,7 +2,7 @@ package P02.lecture;
 
 public class A05Typelnt {
 	public static void main(String[] args) {
-		/		// int : 4byte(32bit) 
+		// int : 4byte(32bit) 
 		
 		// 십진법 0  : 0000 0000 0000 0000 0000 0000 0000 0000
 		//        1  : 0000 0000 0000 0000 0000 0000 0000 0001

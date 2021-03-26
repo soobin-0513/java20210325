@@ -1,4 +1,4 @@
-package p03.lecture.p1unary;
+package P03.lecture.p1unary;
 
 public class A01Sign {
 	public static void main(String[] args) {
