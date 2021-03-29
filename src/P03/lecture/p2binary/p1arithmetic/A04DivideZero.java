@@ -1,4 +1,4 @@
-package P03.lecture.p2binary.arithmetic;
+package P03.lecture.p2binary.p1arithmetic;
 
 public class A04DivideZero {
 	public static void main(String[] args) {
