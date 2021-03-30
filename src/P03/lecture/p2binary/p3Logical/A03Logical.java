@@ -1,4 +1,4 @@
-package P03.lecture.p3ternary;
+package P03.lecture.p2binary.p3Logical;
 
 public class A03Logical {
 	public static void main(String[] args) {
