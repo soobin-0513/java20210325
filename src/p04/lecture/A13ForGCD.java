@@ -18,10 +18,11 @@ public class A13ForGCD {
 		for (int d =num1; d>=1; d--) {
 			if((num1%d)==0 &&(num2%d)==0) {
 				System.out.println("최대공약수는:"+d);
-				return;
+				break; //프로그램 종료
 			}
 				
 		}
+		System.out.println("프로그램이 종료합니다");
 		scanner.close();
 	}
 }
