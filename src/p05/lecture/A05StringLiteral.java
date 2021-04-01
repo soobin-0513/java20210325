@@ -6,7 +6,7 @@ public class A05StringLiteral {
 		String s = new String("java");
 		String t = "java";
 		String u = "java";
-		System.out.println("s==t");
-		System.out.println("t==u");
+		System.out.println(s==t);
+		System.out.println(t==u);
 	}
 }
