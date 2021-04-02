@@ -1,26 +1,23 @@
 package p05.textbook.exercise;
 
-public class Exercise07 {
+public class Exercise0702 {
 	public static void main(String[] args) {
-		int max = 0;
-		int[] array = {1,5,3,8,2};
+		int max = Integer.MIN_VALUE;
+		int min = Integer.MAX_VALUE;
 		
-		//최댓값
-		for(int i=0;i<array.length;i++) {
-			if(max<array[i]) {
-				//max의값보다array[i]이 크면 max=array[i];
-				max=array[i];
+		int[] array = {-11, -15, -13, -18, -12};
+		// 최대값
+		for (int i = 0; i < array.length; i++) {
+			if (max < array[i]) {
+				max = array[i];
 			}
 		}
-		
-		//최소값
-		int min=1;
-		for(int i=0;i<array.length;i++) {
-			if(min>array[i]) {
-				min=array[i];
+		// 최소값
+		for (int i = 0; i < array.length; i++) {
+			if (min > array[i]) {
+				min = array[i];
 			}
 		}
-		
 		// 합계
 		int sum = 0;
 		for (int i = 0; i < array.length; i++) {
@@ -33,9 +30,5 @@ public class Exercise07 {
 		System.out.println("min : " + min);
 		System.out.println("sum : " + sum);
 		System.out.println("avg : " + avg);
-		
-		
-		
 	}
 }
-	
