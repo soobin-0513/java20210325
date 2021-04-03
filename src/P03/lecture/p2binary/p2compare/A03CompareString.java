@@ -16,7 +16,7 @@ public class A03CompareString {
 		char f = 'b';
 		System.out.println(e<f);
 		
-		//동긍한가 (==) 동등하자않다(!=)  비교가능
+		//동등한가 (==) 동등하자않다(!=)  비교가능
 		String str1 = "java";
 		String str2 = "java";
 		System.out.println(str1 == str2);
