@@ -23,8 +23,8 @@ public class Exercise09 {
 				// 학생수
 				System.out.print("학생수>");
 				studentNum = scanner.nextInt();
-				scores = new int[studentNum];
-
+				scores = new int[studentNum]; //학생수만큼 점수배열의 길이 만들기
+				
 				break;
 			case 2:
 				// 점수입력
