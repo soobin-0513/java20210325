@@ -8,8 +8,8 @@ public class Korean {
 	
 	
 //	생성자
-	public Korean(String n, String m) {
-		name=n;
-		ssn=m;
+	public Korean(String name, String ssn) {
+		this.name=name;
+		this.ssn=ssn;
 	}
 }

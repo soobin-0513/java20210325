@@ -99,4 +99,20 @@ public class Warmup1 {
 
 		return res;
 	}
+	
+	public String notString(String str) {
+		if (str.startsWith("not")) {
+			return str;
+		} else {
+			return "not " + str;
+		}
+
+		/*
+		 * if (str.length() < 3) { return "not " + str; }
+		 * 
+		 * String front = str.substring(0, 3);
+		 * 
+		 * if (front.equals("not")) { return str; } else { return "not " + str; }
+		 */
+	}
 }
