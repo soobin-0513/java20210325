@@ -14,9 +14,9 @@ public class SOOBIN_ {
 
 		
 		System.out.println("전화번호를 입력하세요");
+		String tNum=sc.nextLine();
 		//int tNum =sc.nextInt();
-		//String tNum=sc.nextLine();
-		String tNum=sc.next();
+		//String tNum=sc.next();
 		
 		System.out.println("이름:"+names);
 		
