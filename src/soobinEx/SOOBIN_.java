@@ -1,4 +1,4 @@
-package p05.textbook;
+package soobinEx;
 
 import java.util.Scanner;
 
@@ -12,11 +12,11 @@ public class SOOBIN_ {
 		System.out.println("나이를 입력하세요");
 		int age = sc.nextInt();
 
-		
+		sc.nextLine(); //enter무시코드
 		System.out.println("전화번호를 입력하세요");
-		String tNum=sc.nextLine();
+		String tNum=sc.nextLine();  //enter은 무시하는코드한줄추가해야 사용할수있음
 		//int tNum =sc.nextInt();
-		//String tNum=sc.next();
+//		String tNum=sc.next();
 		
 		System.out.println("이름:"+names);
 		

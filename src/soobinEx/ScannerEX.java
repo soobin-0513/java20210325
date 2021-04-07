@@ -1,4 +1,4 @@
-package p05.textbook;
+package soobinEx;
 
 import java.util.Scanner;
 
