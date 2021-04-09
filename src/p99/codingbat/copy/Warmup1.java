@@ -1,6 +1,23 @@
 package p99.codingbat.copy;
 
 public class Warmup1 {
+	public String backAround(String str) {
+		char last = str.charAt(str.length() - 1);
+
+		return last + str + last;
+	}
+
+	public String front3(String str) {
+
+		String front = str;
+
+		if (str.length() > 3) {
+			front = str.substring(0, 3);
+		}
+
+		return front + front + front;
+	}
+
 	public String frontBack(String str) {
 		  
 		  if(str.length()<=1){
