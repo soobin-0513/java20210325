@@ -1,4 +1,4 @@
-package p06.lecture.p9access_modifier;
+package p06.lecture.p8access_modifier;
 
 import p06.lecture.p9access_modifier.package1.MyClass1;
 

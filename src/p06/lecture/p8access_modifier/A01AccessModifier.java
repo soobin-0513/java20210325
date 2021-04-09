@@ -1,4 +1,4 @@
-package p06.lecture.p9access_modifier;
+package p06.lecture.p8access_modifier;
 
 public class A01AccessModifier {
 	//access modifier(접근지정자, 접근제한자)
