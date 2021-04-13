@@ -8,8 +8,7 @@ public class A06TypeCasting {
 		
 		System.out.println("자동형변환");
 		
-		KindaCat k1 = t1;
-		
+		KindaCat k1 = t1;		
 		k1.cry();
 //		k1.hunt(); // x
 		

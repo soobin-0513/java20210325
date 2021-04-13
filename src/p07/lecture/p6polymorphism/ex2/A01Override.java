@@ -9,5 +9,7 @@ public class A01Override {
 		System.out.println("---------");
 		KindaCat k2 =new Tiger();
 		k2.cry();
+		Tiger k3 = new Tiger();
+		k3.hunt();
 	}
 }

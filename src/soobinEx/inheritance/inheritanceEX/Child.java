@@ -10,4 +10,10 @@ public class Child extends Parent{
 		System.out.println("결과화면2:");
 		ch.Print();
 	}
+	@Override
+	public void Print() {
+		System.out.println("---Overrid 수정-------");
+		System.out.println("이름 과 나이:"+name+" "+age+"세 ---Overrid 수정-------");
+		System.out.println("---Overrid 수정-------");
+	}
 }
