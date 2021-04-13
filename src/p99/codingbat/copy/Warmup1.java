@@ -1,6 +1,22 @@
 package p99.codingbat.copy;
 
 public class Warmup1 {
+	public String front22(String str) {
+		  if(str.length()>=2){
+		    String first = str.substring(0,2);
+		    return first + str +first;
+		  }
+		   return str+str+str;
+		}
+
+	public boolean or35(int n) {
+		  if((n%3==0) || (n%5==0)){
+		    return true;
+		  }else{
+		    return false;
+		  }
+		}
+
 	public String backAround(String str) {
 		char last = str.charAt(str.length() - 1);
 
