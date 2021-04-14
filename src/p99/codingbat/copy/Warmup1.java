@@ -1,6 +1,18 @@
 package p99.codingbat.copy;
 
 public class Warmup1 {
+	public boolean startHi(String str) {
+		  
+
+		  if ((str.length()>=2) ) {   //2보다 큰지 검사하기!
+		       String first = str.substring(0, 2);
+		     if(first.equals("hi")){
+		       return true;
+		  } }
+		    return false;
+		  
+		}
+
 	public String front22(String str) {
 		  if(str.length()>=2){
 		    String first = str.substring(0,2);
