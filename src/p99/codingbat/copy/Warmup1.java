@@ -1,6 +1,45 @@
 package p99.codingbat.copy;
 
 public class Warmup1 {
+	
+	public String startOz(String str) {
+		String res = "";
+
+		for (int i = 0; i < str.length(); i++) {
+			if (i == 0 && str.charAt(i) == 'o') {
+				res += 'o';
+				continue;
+			}
+
+			if (i == 1 && str.charAt(i) == 'z') {
+				res += 'z';
+				break;
+			}
+		}
+
+		return res;
+	}
+
+	public boolean mixStart(String str) {
+		if (str.length() < 3) {
+			return false;
+		}
+
+		return str.substring(1, 3).equals("ix");
+	}
+
+	public String delDel(String str) {
+		if (str.length() < 4) {
+			return str;
+		}
+
+		String d = str.substring(1, 4);
+		if (d.equals("del")) {
+			return str.substring(0, 1) + str.substring(4);
+		} else {
+			return str;
+		}
+	}
 	public boolean startHi(String str) {
 		  
 
