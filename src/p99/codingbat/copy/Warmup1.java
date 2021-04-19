@@ -1,7 +1,36 @@
 package p99.codingbat.copy;
 
 public class Warmup1 {
-	
+	public boolean in3050(int a, int b) {
+		boolean a3040 = (30 <= a) && (a <= 40);
+		boolean b3040 = (30 <= b) && (b <= 40);
+
+		boolean a4050 = (40 <= a) && (a <= 50);
+		boolean b4050 = (40 <= b) && (b <= 50);
+
+		return (a3040 && b3040) || (a4050 && b4050);
+	}
+
+	public int close10(int a, int b) {
+		int a10 = Math.abs(10 - a);
+		int b10 = Math.abs(10 - b);
+
+		if (a10 < b10) {
+			return a;
+		} else if (b10 < a10) {
+			return b;
+		} else {
+			return 0;
+		}
+	}
+
+	public int intMax(int a, int b, int c) {
+		int ab = Math.max(a, b);
+		int max = Math.max(ab, c);
+
+		return max;
+	}
+
 	public String startOz(String str) {
 		String res = "";
 

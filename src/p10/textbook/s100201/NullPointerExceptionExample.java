@@ -5,9 +5,9 @@ public class NullPointerExceptionExample {
 		System.out.println("실행");
 		String data = null;
 		
-		if(data !=null) {
+		//if(data !=null) {
 			System.out.println(data.toString());			
-		}
+		//}
 		System.out.println("종료");
 	}
 }

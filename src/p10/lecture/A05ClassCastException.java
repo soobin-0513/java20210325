@@ -1,6 +1,6 @@
 package p10.lecture;
 
-public class A05ClassCatException {
+public class A05ClassCastException {
 	public static void main(String[] args) {
 		System.out.println("프로그램 실행");
 		
