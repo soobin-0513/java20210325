@@ -1,6 +1,6 @@
 package p13.lecture;
 
-public class A09WildCard {
+public class A08WildCard {
 	public static void main(String[] args) {
 		putBox(new Box8<MyClass8>());
 		putBox(new Box8<Object>());
