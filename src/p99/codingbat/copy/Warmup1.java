@@ -97,7 +97,7 @@ public class Warmup1 {
 		  }
 		}
 
-	public String backAround(String str) {
+	public String backAround1(String str) {
 		char last = str.charAt(str.length() - 1);
 
 		return last + str + last;

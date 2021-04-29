@@ -4,8 +4,18 @@ public class A01InterfaceExtends {
 
 	public static void main(String[] args) {
 		MyInterface2 i2 = new MyInterface2() {
+
+			
+			@Override
 			public void method1() {
 				System.out.println("ddd");
+				
+			}
+
+			@Override
+			public void method2() {
+				// TODO Auto-generated method stub
+				
 			}
 		};
 		

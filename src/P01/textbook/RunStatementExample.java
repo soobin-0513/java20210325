@@ -1,4 +1,4 @@
-package p01.textbook;
+package P01.textbook;
 
 public class RunStatementExample {
 	 static void main(String[]args) {

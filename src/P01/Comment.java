@@ -1,4 +1,4 @@
-package p01;
+package P01;
 
 public class Comment {
 	public static void main(String[] args) {

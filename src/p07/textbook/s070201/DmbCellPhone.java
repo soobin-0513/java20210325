@@ -2,7 +2,7 @@ package p07.textbook.s070201;
 
 public class DmbCellPhone extends CellPhone {
 	//필드
-	int Channe1;
+	int channe1;
 	
 	//생성자
 	

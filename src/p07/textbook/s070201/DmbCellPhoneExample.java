@@ -11,12 +11,12 @@ public class DmbCellPhoneExample {
 	
 			
 		//DmbCellPhone의 필드
-		System.out.println("채널:"+dmbCellPhone.Channe1);
+		System.out.println("채널:"+dmbCellPhone.channe1);
 	
 		//CellPhone으로부터 상속받은 메소드 호풀
 		dmbCellPhone.powerOn();
 		dmbCellPhone.bell();
-		dmbCellphone.sendVoice("여보세요");
+		dmbCellPhone.sendVoice("여보세요");
 		
 	}
 	

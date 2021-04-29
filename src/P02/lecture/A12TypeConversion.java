@@ -1,6 +1,9 @@
 package P02.lecture;
 
 public class A12TypeConversion {
+	
+	public static void main(String[] args) {
+		
 	// 실수
 	float floatVar1 = 3.14F;
 	double doubleVar1;
@@ -26,6 +29,7 @@ public class A12TypeConversion {
 	
 	
 	
+	}
 	
 	
 }

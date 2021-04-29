@@ -5,7 +5,7 @@ public class InputDateCheckNaNExample2 {
 		String userInput = "NaN";   //사용자로부터 입력받은값
 		double  val = Double.valueOf(userInput);  //입력받은 값을 double 타입으로 변환
 		
-		doube currentBalance = 10000.0;
+		double currentBalance = 10000.0;
 		
 	    if(Double.isNaN(val)) {
 	    	System.out.println("NaN이 입력되어처리 할 수 없음");

@@ -4,12 +4,12 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class A17ThrowsPolymorphism {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		method1();
 	}
 	
-	private static void method1() throws FileNotFoundException, ClassNotFoundException {
+	private static void method1() throws Exception {
 		Class.forName("java.lang.String");
-		FileInputStream fis = new FileInputStream("");
+		FileInputStream file = new FileInputStream("");
 	}
 }
