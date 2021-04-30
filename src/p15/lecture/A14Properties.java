@@ -15,7 +15,8 @@ public class A14Properties {
 		System.out.println(props.get("id"));
 		System.out.println(props.get("password"));
 		
-		String idValue =(String) props.get("id"); //위험한 코드
+		//String idValue =(String) props.get("id"); //위험한 코드
 		String value = props.getProperty("id");
+		System.out.println(value);
 	}
 }
