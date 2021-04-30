@@ -30,9 +30,7 @@ public class HashMapEX {
 		Set<Map.Entry<String,Integer>> entries=hashmap.entrySet();
 		for(Map.Entry<String, Integer> entry: entries) {
 			
-			if(entry.getValue()) {
-				
-			}
+			
 			System.out.println(entry.getKey()+":"+entry.getValue());
 		}
 	}
