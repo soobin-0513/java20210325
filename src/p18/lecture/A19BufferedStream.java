@@ -16,13 +16,22 @@ public class A19BufferedStream {
 		
 		long end =System.nanoTime();
 		System.out.println(end -start);
+		fis.close();
 		
-		FileInputStream fis1 = new FileInputStream(file);
-		BufferedInputStream bis = new BufferedInputStream(fis1);  
+		fis = new FileInputStream(file);
+		BufferedInputStream bis = new BufferedInputStream(fis);  
 		
 		start =System.nanoTime();
+		while ((b = bis.read()) != -1) {
+			
+		}
+		end= System.nanoTime();
 		System.out.println(end-start);
 		bis.close();
 		fis.close();
+		
+		
+
+		
 	}
 }
