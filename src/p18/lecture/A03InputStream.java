@@ -8,7 +8,7 @@ public class A03InputStream {
 		String fileName="src/p18/lecture/A02InputStream.java";
 		
 		InputStream is = new FileInputStream(fileName);
-		byte[]datas = new byte[10];
+		byte[]datas = new byte[20];
 		
 //		int cnt = is.read(datas);
 //		is.read(datas);
