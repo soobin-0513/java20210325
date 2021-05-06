@@ -5,7 +5,7 @@ import java.io.OutputStream;
 
 public class A05OutputStream {
 	public static void main(String[] args) throws Exception {
-		String fileName ="src/p18/lecture/output2.text";
+		String fileName ="src/p18/lecture/output2.txt";
 		OutputStream os = new FileOutputStream(fileName);
 		
 		byte[] datas = new byte[50];
