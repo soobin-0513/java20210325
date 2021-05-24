@@ -1,4 +1,4 @@
-package p99.codingbat;
+package p99.codingbat.copy;
 
 public class WarmUp2Solution {
 	public int stringMatch(String a, String b) {
